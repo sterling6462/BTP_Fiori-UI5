@@ -1,0 +1,16 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.btp.sapui5.controller.Detail" displayBlock="true">
+  <Page id="detail" title="{i18n>DetailTitle}" showNavButton="true" navButtonPress="handleNavButtonPress">
+  <content><VBox xmlns="sap.m" id="_IDGenVBox1">
+          <Text id="_IDGenText1" text="{ProductName}"/>
+          <Text id="_IDGenText2" text="{UnitPrice}"/>
+          <Text id="_IDGenText3" text="{QuantityPerUnit}"/>
+          <Text id="_IDGenText4" text="{UnitsInStock}"/>
+      </VBox>
+      <Breadcrumbs xmlns="sap.m" currentLocationText="Location" id="breadcrumbs0">
+          <Link text="Level 1"/>
+          <Link text="Level 2"/>
+          </Breadcrumbs>
+      <Button xmlns="sap.m" text="Button" id="button0"/>
+  </content>
+  </Page>
+</mvc:View>
